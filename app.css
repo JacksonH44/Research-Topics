@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(146, 243, 250);
+}
+
+.nav-link {
+  color: white;
+  transition: 200ms ease-in-out;
+}
+
+.nav-link:hover {
+  color: #5715f1;
+  transform: translateY(-0.1em);
+}
+
+#mainNav .navbar-brand {
+  color: #5715f1;
+}
+
+#mainNav {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#frontPage span {
+  color: #5715f1;
+  font-weight: 100;
+}
+
+#frontPage h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  color: #5715f1;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: rgb(32, 19, 58);
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.img-fluid {
+  background-size: cover;
+}
+
+.bi.bi-calculator {
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+.navbar.scrolled {
+  background: rgb(159, 129, 218);
+}
+
+@media (max-width: 1200px) {
+  #frontPage h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .bi.bi-calculator {
+    display: none;
+  }
+}
